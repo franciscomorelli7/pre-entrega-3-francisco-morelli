@@ -1,0 +1,369 @@
+@font-face {
+  font-family: "sansCondensed";
+  src: url("../assets/fonts/EncodeSansCondensed-Bold.ttf");
+}
+@font-face {
+  font-family: "amble";
+  src: url("../assets/fonts/Amble-Regular.ttf");
+}
+.claseHeader__tituloGeneral {
+  display: flex;
+}
+.claseHeader__logo {
+  height: 55px;
+  width: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.claseHeader__contenido {
+  justify-content: space-evenly;
+}
+
+/*CLASES FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.containerFooter__rowFooter {
+  width: 100%;
+}
+.containerFooter p {
+  color: white;
+  font-family: "amble";
+}
+.containerFooter__columna {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.containerFooter img:hover {
+  border: 1px solid #0C2C46;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+}
+
+.seccionPrincipal__rowPrincipal {
+  display: flex;
+  justify-content: center;
+}
+.seccionPrincipal__tituloMain {
+  font-family: "sansCondensed";
+}
+.seccionPrincipal__parrafoMain {
+  font-family: "amble";
+}
+.seccionPrincipal__cartaPrincipal {
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+
+/*CLASES SECCION 1 */
+.section1 {
+  display: flex;
+  justify-content: center;
+}
+.section1__rowSection1 {
+  display: flex;
+  justify-content: center;
+  width: 1288px;
+}
+@media (min-width: 593px) and (max-width: 767px) {
+  .section1 .col-md-4 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+.section1__cartaNoticia {
+  max-width: 1268.66px;
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+.section1__tituloSection1 {
+  font-family: "sansCondensed";
+}
+.section1__parrafoSection1 {
+  font-family: "amble";
+}
+
+/* CLASES DE AGENDA */
+.containerAgenda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1288px;
+}
+.containerAgenda__tituloAgenda {
+  display: flex;
+  justify-content: center;
+  font-family: "sansCondensed";
+}
+.containerAgenda__cartasAgendaPadre {
+  display: flex;
+}
+.containerAgenda__cartasAgenda {
+  display: flex;
+  justify-content: center;
+}
+.containerAgenda__fechasAgenda {
+  font-family: "amble";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Galeria css*/
+#galeria {
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+#galeria h1 {
+  color: white;
+  font-family: "sansCondensed";
+}
+#galeria p {
+  color: white;
+  font-family: "amble";
+}
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+.mainCiclon {
+  display: flex;
+  justify-content: center;
+}
+.mainCiclon p {
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .mainCiclon p {
+    font-size: 16px;
+  }
+}
+.mainCiclon img:hover {
+  border: 5px solid;
+  border-color: #BE2323;
+}
+
+.historiaCiclon {
+  display: flex;
+  width: 1288px;
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+.historiaCiclon h1 {
+  color: white;
+  font-family: "sansCondensed";
+  justify-content: center;
+  display: flex;
+}
+.historiaCiclon__parrafo {
+  color: white;
+  font-family: "amble";
+}
+
+.losMatadores {
+  display: flex;
+  justify-content: center;
+}
+.losMatadores h3 {
+  color: white;
+  font-family: "sansCondensed";
+}
+.losMatadores__texto {
+  color: white;
+  font-family: "amble";
+}
+
+.copaSudamericana {
+  display: flex;
+  justify-content: center;
+}
+.copaSudamericana h3 {
+  color: white;
+  font-family: "sansCondensed";
+}
+.copaSudamericana__texto {
+  color: white;
+  font-family: "amble";
+}
+
+.copaLibertadores {
+  display: flex;
+  justify-content: center;
+}
+.copaLibertadores h3 {
+  color: white;
+  font-family: "sansCondensed";
+}
+.copaLibertadores__texto {
+  color: white;
+  font-family: "amble";
+}
+
+/*Estilos de partidos*/
+.partidos__fila1 {
+  max-width: 1310px;
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+.partidos h1 {
+  color: white;
+  font-family: "sansCondensed";
+}
+.partidos__iconoEquipo {
+  width: 30px;
+  height: 30px;
+}
+.partidos thead {
+  font-family: "sansCondensed";
+}
+.partidos tbody {
+  font-family: "amble";
+}
+.partidos__fila2 {
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+
+/*estilos de los escudos de los partidos*/
+.defensa {
+  width: 30px;
+  height: 30px;
+}
+
+.banfield {
+  width: 30px;
+  height: 30px;
+}
+
+.instituto {
+  width: 30px;
+  height: 30px;
+}
+
+.fortaleza {
+  width: 30px;
+  height: 30px;
+}
+
+.barracas {
+  width: 30px;
+  height: 30px;
+}
+
+.colon {
+  width: 30px;
+  height: 30px;
+}
+
+.palestino {
+  width: 30px;
+  height: 30px;
+}
+
+.centralCordoba {
+  width: 30px;
+  height: 30px;
+}
+
+.estudiantes {
+  width: 30px;
+  height: 30px;
+}
+
+.merida {
+  width: 30px;
+  height: 30px;
+}
+
+.rosario {
+  width: 30px;
+  height: 30px;
+}
+
+.racing {
+  width: 30px;
+  height: 30px;
+}
+
+.river {
+  width: 30px;
+  height: 30px;
+}
+
+.belgrano {
+  width: 30px;
+  height: 30px;
+}
+
+.argentinos {
+  width: 30px;
+  height: 30px;
+}
+
+.tigre {
+  width: 30px;
+  height: 30px;
+}
+
+/*ESTILOS DEL CONTACTO*/
+#contacto {
+  background: rgb(172, 32, 32);
+  background: linear-gradient(90deg, rgb(172, 32, 32) 1%, rgb(0, 48, 73) 37%);
+}
+
+#contactoContainer h1 {
+  color: white;
+  font-family: "sansCondensed";
+}
+#contactoContainer .rowContacto {
+  color: white;
+  font-family: "amble";
+}
+#contactoContainer .boton {
+  margin-left: 45%;
+}
+
+@media (max-width: 414px) {
+  .pieContacto {
+    margin-top: 104px;
+  }
+}
+@media (min-width: 414px) and (max-width: 1181px) {
+  .pieContacto {
+    margin-top: 235px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

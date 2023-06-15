@@ -1,0 +1,69 @@
+// ESTIILO PARA ARTICULOS DE HISTORIA
+@mixin estilo-articulo{
+  display: flex;
+  justify-content: center;
+}
+// SCSS DE LA PAGINA HISTORIA
+
+
+
+.mainCiclon{
+  display: flex;
+  justify-content: center;
+  // FONT SIZE MEDIA QUERIE 
+  p{
+    font-size: 18px;
+  }
+  @media screen and (max-width: 767px) {
+    p {
+      font-size: 16px;
+    }
+  }
+  img:hover{
+    border: 5px solid;
+    border-color: $color-header-pie;
+  }
+}
+.historiaCiclon{
+  display: flex;
+  width: 1288px;
+  background: rgb(172,32,32);
+  background: linear-gradient(90deg, rgba(172,32,32,1) 1%, rgba(0,48,73,1) 37%);
+    h1{
+      @include fuente-titulos;
+      justify-content: center;
+      display: flex;
+      
+    }
+    &__parrafo{
+      @include texto-articulo;
+    }
+}
+.losMatadores{
+  @include estilo-articulo;
+  h3{
+      @include fuente-titulos;
+  }
+
+  &__texto{
+    @include texto-articulo;
+  }
+}
+.copaSudamericana{
+  @include estilo-articulo;
+  h3{
+    @include fuente-titulos;
+  }
+  &__texto{
+    @include texto-articulo;
+  }
+}
+.copaLibertadores{
+  @include estilo-articulo;
+  h3{
+    @include fuente-titulos;
+  }
+  &__texto{
+    @include texto-articulo;
+  }
+}

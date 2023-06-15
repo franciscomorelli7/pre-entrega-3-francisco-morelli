@@ -1,0 +1,12 @@
+$color-principal: #0C2C46 ;
+$color-header-pie:#BE2323 ;
+// ESTILO PARA TITULOS
+@mixin fuente-titulos{
+    color: white;
+    font-family: "sansCondensed";
+}
+// ESTILO PARA TEXTOS (PARRAFOS)
+@mixin texto-articulo{
+color: white;
+font-family: "amble";
+}
