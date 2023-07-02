@@ -355,15 +355,10 @@ footer {
   margin-left: 45%;
 }
 
-@media (max-width: 414px) {
-  .pieContacto {
-    margin-top: 104px;
-  }
-}
-@media (min-width: 414px) and (max-width: 1181px) {
-  .pieContacto {
-    margin-top: 235px;
-  }
+.pieContacto {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
